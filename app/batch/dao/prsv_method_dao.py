@@ -2,6 +2,9 @@
 from dao import psgr_db_conn
 
 def reg_prsv_method_data(record, script_nm):
+    """
+    保存方法情報をデータベースに取り込む
+    """
     prsv_method_id = record[0]
     prsv_text = record[1]
 

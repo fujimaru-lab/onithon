@@ -6,9 +6,14 @@ import sys
 sys.path.append('batch/dao')
 import dao.material_dao as m_dao
 import dao.prsv_method_dao as pm_dao
+import dao.maker_comp_dao as mc_dao
 import os
 
 def import_csv(file_path):
+    """
+    所定のフォルダに配置されたCSVファイルから原材料情報、原材料セット情報、保存方法情報、製造会社情報、製造会社製造拠点情報、商品基本情報、商品販売情報を
+    取り込みデータベースに登録する
+    """ 
     script_nm = os.path.basename(sys.argv[0])
     try:
         with open(file_path, newline='', encoding='utf-8_sig') as csvfile:
@@ -28,7 +33,7 @@ def import_csv(file_path):
                     pm_dao.reg_prsv_method_data(re.split(',', record), script_nm)
                 elif tbl_nm == "maker_comp":
                     # 製造会社情報取り込み
-                    pass
+                    mc_dao.reg_maker_comp_data(re.split(',', record), script_nm)
                 elif tbl_nm == "maker_base":
                     # 製造会社製造拠点情報取り込み
                     pass

@@ -3,6 +3,10 @@ import psycopg2
 
 # TODO:シングルトン実装
 class Connection:
+    """
+    コネクション情報を保持する
+    インスタンスメソッドはPEP249準拠
+    """
     def __init__(self):
         db = "mydb"
         usr = "training"
