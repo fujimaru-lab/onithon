@@ -12,8 +12,9 @@ import os
 
 def import_csv(file_path):
     """
-    所定のフォルダに配置されたCSVファイルから原材料情報、原材料セット情報、保存方法情報、製造会社情報、製造会社製造拠点情報、商品基本情報、商品販売情報を
+    所定のフォルダに配置されたCSVファイルから原材料情報、原材料セット情報、保存方法情報、製造会社情報、製造会社製造拠点情報、商品基本情報を
     取り込みデータベースに登録する
+    商品販売情報は取り込み対象外
     """ 
     script_nm = os.path.basename(sys.argv[0])
     try:
@@ -40,9 +41,6 @@ def import_csv(file_path):
                     mb_dao.reg_maker_base_data(re.split(',', record), script_nm)
                 elif tbl_nm == "prod_base":
                     # 商品基本情報取り込み
-                    pass
-                elif tbl_nm == "prod_sale":
-                    # 商品販売情報取り込み
                     pass
                 else:
                     print(filename, "is not subject to csv-import")
