@@ -60,6 +60,7 @@ def count_material_set(material_set_id, material_id):
         count = cursor.rowcount
         return count
     except Exception as e:
+        conn.rollback()
         raise e
     finally:
         cursor.close()
