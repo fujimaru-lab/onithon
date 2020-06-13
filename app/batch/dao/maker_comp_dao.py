@@ -26,6 +26,7 @@ def reg_maker_comp_data (record, script_nm):
         cursor.execute(upsrt, sqlparam)
         conn.commit()
     except Exception as e:
+        conn.rollback()
         raise e
     finally:
         cursor.close()
