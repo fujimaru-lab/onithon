@@ -1,17 +1,19 @@
 # !/bin/sh
 # CSVファイルデータ取得処理起動用シェルスクリプト
 
-echo '処理開始'
+echo 'CSVファイルデータ取得処理起動用シェルスクリプト：処理開始'
+
+# 設定ファイルの読み込み
+source ./onithon_conf.sh
 
 # sample_dataフォルダを操作しファイル名を取得
-data_folder='C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data/'
-files=`ls ${data_folder}`
+files=`ls ${CSV_DATA_DIR}`
 
 for file in ${files[*]}
 do
     # ファイル名を引数としてcsv_import_main.pyを起動
-    echo ${file}
-    py C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/csv_import_main.py "${data_folder}/${file}"
+    echo "${file} を処理開始"
+    py ${PY_CSV_IMPORT} "${CSV_DATA_DIR}/${file}"
 done
 
-echo '処理終了'
+echo 'CSVファイルデータ取得処理起動用シェルスクリプト：処理終了'
