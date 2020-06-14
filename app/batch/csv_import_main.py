@@ -1,14 +1,14 @@
 # encoding utf-8
 import csv
 import re
-import psycopg2
 import sys
-sys.path.append('batch/dao')
+sys.path.append('batch')
 import dao.material_dao as m_dao
 import dao.prsv_method_dao as pm_dao
 import dao.maker_comp_dao as mc_dao
 import dao.maker_base_dao as mb_dao
 import os
+
 
 def import_csv(file_path):
     """
@@ -50,6 +50,7 @@ def import_csv(file_path):
         print(e)
     finally:
         csvfile.close()
+
 
 if __name__ == "__main__":
     filepath = sys.argv[1]
