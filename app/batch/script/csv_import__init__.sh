@@ -1,7 +1,9 @@
 # !/bin/sh
 # CSVファイルデータ取得処理起動用シェルスクリプト
 
-echo 'CSVファイルデータ取得処理起動用シェルスクリプト：処理開始'
+proc_nm='CSVファイルデータ取得処理起動用シェルスクリプト'
+
+echo "${proc_nm}：処理開始"
 
 # 設定ファイルの読み込み
 source ./onithon_conf.sh
@@ -15,5 +17,10 @@ do
     echo "${file} を処理開始"
     py ${PY_CSV_IMPORT} "${CSV_DATA_DIR}/${file}"
 done
+result=$?
 
-echo 'CSVファイルデータ取得処理起動用シェルスクリプト：処理終了'
+if [ ${result} -eq 0 ]; then
+  echo "${proc_nm}：正常終了"
+else
+  echo "${proc_nm}：異常終了"
+fi
