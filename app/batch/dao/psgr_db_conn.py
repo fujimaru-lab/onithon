@@ -1,6 +1,6 @@
 # encoding utf-8
 import psycopg2
-import conf.onithon_config as conf
+from conf import onithon_config
 
 
 # TODO:シングルトン実装 
@@ -11,7 +11,7 @@ class Connection:
     インスタンスメソッドはPEP249準拠
     """
     def __init__(self):
-        config = conf.OnithonConfig()
+        config = onithon_config.OnithonConfig()
         db = config.getvalue('DB_CONN_INFO', 'ONITHON_DB')
         usr = config.getvalue('DB_CONN_INFO', 'ONITHON_DB_USER')
         pw = config.getvalue('DB_CONN_INFO', 'ONITHON_DB_PW')
