@@ -19,8 +19,8 @@ def import_csv(file_path):
     """ 
     script_nm = os.path.basename(sys.argv[0])
     logger = log.BatchLog(os.path.basename(__file__))
-    logger.debug('<' + script_nm + '>' + '処理開始')
-    logger.info('<' + file_path + '>' + '取り込み処理開始')
+    logger.debug(logger.create_msg('<{0}>処理開始', script_nm))
+    logger.info(logger.create_msg('<{0}>取り込み処理開始', file_path))
     try:
         with open(file_path, newline='', encoding='utf-8_sig') as csvfile:
             csvreader = csv.reader(csvfile)
@@ -54,7 +54,7 @@ def import_csv(file_path):
         print(e)
     finally:
         csvfile.close()
-        logger.debug('<' + script_nm + '>' + '処理終了')
+        logger.debug(logger.create_msg('<{0}>処理終了', script_nm))
         logger.shutdown()
 
 

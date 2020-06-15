@@ -1,5 +1,6 @@
 import logging
 import sys
+import string
 from conf import onithon_config
 
 
@@ -53,3 +54,7 @@ class BatchLog:
 
     def shutdown(self):
         logging.shutdown()
+
+    def create_msg(self, template, *params):
+        fmt = string.Formatter()
+        return fmt.vformat(template, params, None)
