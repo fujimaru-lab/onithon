@@ -9,7 +9,7 @@ class BatchLog:
     onithonバッチ用ログクラス
     '''
     # 標準出力、ファイル出力のログフォーマット
-    batchlog_fmt = '%(asctime)s - [%(levelname)s]:%(message)s'
+    batchlog_fmt = '%(asctime)s [%(levelname)s] - %(message)s'
     # '%(asctime)s - %(funcName)s [%(levelname)s]:%(message)s - %(filename)s:(%lineno)d'
 
     def __init__(self, file_nm):
@@ -37,20 +37,25 @@ class BatchLog:
         self._logger.addHandler(fh)
 
 
-    def debug(self, msg):
-        self._logger.debug(msg)
+    def debug(self, msg, *params):
+        _msg = self.create_msg(msg, *params)
+        self._logger.debug(_msg)
 
-    def info(self, msg):
-        self._logger.info(msg)
+    def info(self, msg, *params):
+        _msg = self.create_msg(msg, *params)
+        self._logger.info(_msg)
 
-    def warning(self, msg):
-        self._logger.warning(msg)
+    def warning(self, msg, *params):
+        _msg = self.create_msg(msg, *params)
+        self._logger.warning(_msg)
 
-    def error(self, msg):
-        self._logger.error(msg)
+    def error(self, msg, *params):
+        _msg = self.create_msg(msg, *params)
+        self._logger.error(_msg)
 
-    def critical(self, msg):
-        self._logger.critical(msg)
+    def critical(self, msg, *params):
+        _msg = self.create_msg(msg, *params)
+        self._logger.critical(_msg)
 
     def shutdown(self):
         logging.shutdown()
