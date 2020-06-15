@@ -1,0 +1,32 @@
+test test test
+test test test
+test test test
+test test test
+2020-06-15 09:14:17,091 - [DEBUG]:test test test
+2020-06-15 09:14:17,320 - [DEBUG]:test test test
+2020-06-15 09:14:17,529 - [DEBUG]:test test test
+2020-06-15 09:14:20,443 - [DEBUG]:test test test
+2020-06-15 09:20:19,485 - [DEBUG]:<csv_import_main.py>�����J�n
+2020-06-15 09:20:19,490 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>��荞�ݏ����J�n
+2020-06-15 09:20:19,491 - [DEBUG]:<csv_import_main.py>�����I��
+2020-06-15 09:20:19,852 - [DEBUG]:<csv_import_main.py>�����J�n
+2020-06-15 09:20:19,853 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>��荞�ݏ����J�n
+2020-06-15 09:20:19,855 - [DEBUG]:<csv_import_main.py>�����I��
+2020-06-15 09:20:20,125 - [DEBUG]:<csv_import_main.py>�����J�n
+2020-06-15 09:20:20,125 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>��荞�ݏ����J�n
+2020-06-15 09:20:23,095 - [DEBUG]:<csv_import_main.py>�����I��
+2020-06-15 09:20:23,309 - [DEBUG]:<csv_import_main.py>�����J�n
+2020-06-15 09:20:23,309 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>��荞�ݏ����J�n
+2020-06-15 09:20:23,632 - [DEBUG]:<csv_import_main.py>�����I��
+2020-06-15 09:21:46,007 - [DEBUG]:<csv_import_main.py>処理開始
+2020-06-15 09:21:46,007 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>取り込み処理開始
+2020-06-15 09:21:46,008 - [DEBUG]:<csv_import_main.py>処理終了
+2020-06-15 09:21:46,262 - [DEBUG]:<csv_import_main.py>処理開始
+2020-06-15 09:21:46,262 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>取り込み処理開始
+2020-06-15 09:21:46,263 - [DEBUG]:<csv_import_main.py>処理終了
+2020-06-15 09:21:46,500 - [DEBUG]:<csv_import_main.py>処理開始
+2020-06-15 09:21:46,500 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>取り込み処理開始
+2020-06-15 09:21:50,108 - [DEBUG]:<csv_import_main.py>処理終了
+2020-06-15 09:21:50,467 - [DEBUG]:<csv_import_main.py>処理開始
+2020-06-15 09:21:50,468 - [INFO]:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>取り込み処理開始
+2020-06-15 09:21:50,918 - [DEBUG]:<csv_import_main.py>処理終了
