@@ -12,8 +12,8 @@ def reg_maker_base_data(record, scrpt_nm):
     maker_base_id = record[1]
     base_name = record[2]
     base_adrs = record[3]
-    base_tel = record[4]
-    logger.debug(logger.create_msg('処理レコード：{0}', record))
+    base_tel = record[4].rstrip('\r\n')
+    logger.debug(logger.create_msg('処理レコード：({0}, {1}, {2}, {3}, {4})', maker_comp_id, maker_base_id, base_name, base_adrs, base_tel))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()

@@ -10,8 +10,8 @@ def reg_prsv_method_data(record, script_nm):
     保存方法情報をデータベースに取り込む
     """
     prsv_method_id = record[0]
-    prsv_text = record[1]
-    logger.debug(logger.create_msg('処理レコード：{0}', record))
+    prsv_text = record[1].rstrip('\r\n')
+    logger.debug(logger.create_msg('処理レコード：({0}, {1})', prsv_method_id, prsv_text))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()

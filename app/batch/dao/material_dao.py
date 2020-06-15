@@ -16,8 +16,8 @@ def reg_material_data(record, scpt_nm):
     '''
     material_set_id = record[0]
     material_id = record[1]
-    material_name = record[2]
-    logger.debug(logger.create_msg('処理レコード：{0}', record))
+    material_name = record[2].rstrip('\r\n')
+    logger.debug(logger.create_msg('処理レコード：({0}, {1}, {2})', material_set_id, material_id, material_name))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()

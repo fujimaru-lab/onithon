@@ -11,8 +11,8 @@ def reg_maker_comp_data (record, script_nm):
     パースされたCSVレコードをもとに製造会社情報を登録する
     """
     maker_comp_id = record[0]
-    maker_name = record[1]
-    logger.debug(logger.create_msg('処理レコード：{0}', record))
+    maker_name = record[1].rstrip('\r\n')
+    logger.debug(logger.create_msg('処理レコード：({0}, {1})', maker_comp_id, maker_name))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()
