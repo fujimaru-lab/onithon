@@ -1,5 +1,10 @@
 # encoding utf-8
 from dao import psgr_db_conn
+from log import batch_logger
+
+# ロガーの取得
+logger = batch_logger.BatchLog(__file__)
+
 
 def reg_maker_comp_data (record, script_nm):
     """
@@ -7,7 +12,7 @@ def reg_maker_comp_data (record, script_nm):
     """
     maker_comp_id = record[0]
     maker_name = record[1]
-
+    logger.debug(logger.create_msg('処理レコード：{0}', record))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()

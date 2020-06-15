@@ -47,11 +47,11 @@ def import_csv(file_path):
                     # 商品基本情報取り込み
                     pass
                 else:
-                    print(filename, "is not subject to csv-import")
+                    logger.info(logger.create_msg('{0}は取り込み対象のファイルではありません', filename))
                     break
             
     except Exception as e:
-        print(e)
+        logger.error(e)
     finally:
         csvfile.close()
         logger.debug(logger.create_msg('<{0}>処理終了', script_nm))

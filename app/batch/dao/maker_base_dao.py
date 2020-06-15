@@ -1,13 +1,19 @@
 # encoding utf-8
 from dao import psgr_db_conn
+from log import batch_logger
+# ロガーの取得
+logger = batch_logger.BatchLog(__file__)
 
 def reg_maker_base_data(record, scrpt_nm):
+    """
+    パースされたCSVレコードをもとに製造会社製造拠点情報を登録する
+    """
     maker_comp_id = record[0]
     maker_base_id = record[1]
     base_name = record[2]
     base_adrs = record[3]
     base_tel = record[4]
-
+    logger.debug(logger.create_msg('処理レコード：{0}', record))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()

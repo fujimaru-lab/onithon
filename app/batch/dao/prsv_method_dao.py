@@ -1,5 +1,9 @@
 # encoding utf-8
 from dao import psgr_db_conn
+from log import batch_logger
+
+# ロガーの取得
+logger = batch_logger.BatchLog(__file__)
 
 def reg_prsv_method_data(record, script_nm):
     """
@@ -7,7 +11,7 @@ def reg_prsv_method_data(record, script_nm):
     """
     prsv_method_id = record[0]
     prsv_text = record[1]
-
+    logger.debug(logger.create_msg('処理レコード：{0}', record))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()

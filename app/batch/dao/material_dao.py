@@ -1,5 +1,9 @@
 # encoding utf-8
 from dao import psgr_db_conn
+from log import batch_logger
+
+# ロガーの取得
+logger = batch_logger.BatchLog(__file__)
 
 # csvレコードの想定
 # 00001,00001,砂糖
@@ -7,10 +11,13 @@ from dao import psgr_db_conn
 # 00002,00001,砂糖
 # 00002,00003,人参
 def reg_material_data(record, scpt_nm):
+    '''
+    引数として渡されたレコードをもとに、原材料情報を登録・更新、原材料セット情報を登録する
+    '''
     material_set_id = record[0]
     material_id = record[1]
     material_name = record[2]
-    
+    logger.debug(logger.create_msg('処理レコード：{0}', record))
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()
@@ -45,6 +52,7 @@ def reg_material_data(record, scpt_nm):
         conn.close()
 
 def count_material_set(material_set_id, material_id):
+    count = 0
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()
@@ -58,10 +66,11 @@ def count_material_set(material_set_id, material_id):
             """
         cursor.execute(sql, (material_set_id, material_id))
         count = cursor.rowcount
-        return count
+        logger.debug(logger.create_msg('(material_set_id={0}, material_id={1}):{2}件', material_set_id, material_id, count))
     except Exception as e:
         conn.rollback()
         raise e
     finally:
         cursor.close()
         conn.close()
+    return count

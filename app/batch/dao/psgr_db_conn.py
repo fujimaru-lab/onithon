@@ -2,7 +2,6 @@
 import psycopg2
 from conf import onithon_config
 
-
 # TODO:シングルトン実装 
 # loggingクラスがドキュメント読む限りシングルトン実装？ https://github.com/python/cpython/blob/3.8/Lib/logging/__init__.py
 class Connection:
