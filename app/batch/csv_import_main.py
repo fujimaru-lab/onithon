@@ -19,8 +19,8 @@ def import_csv(file_path):
     """ 
     script_nm = os.path.basename(sys.argv[0])
     logger = log.BatchLog(os.path.basename(__file__))
-    logger.debug(logger.create_msg('<{0}>処理開始', script_nm))
-    logger.info(logger.create_msg('<{0}>取り込み処理開始', file_path))
+    logger.debug('<{0}>処理開始', script_nm)
+    logger.info('<{0}>取り込み処理開始', file_path)
     try:
         with open(file_path, newline='', encoding='utf-8_sig') as csvfile:
             csvreader = csv.reader(csvfile)
@@ -47,14 +47,14 @@ def import_csv(file_path):
                     # 商品基本情報取り込み
                     pass
                 else:
-                    logger.info(logger.create_msg('{0}は取り込み対象のファイルではありません', filename))
+                    logger.info('{0}は取り込み対象のファイルではありません', filename)
                     break
             
     except Exception as e:
         logger.error(e)
     finally:
         csvfile.close()
-        logger.debug(logger.create_msg('<{0}>処理終了', script_nm))
+        logger.debug('<{0}>処理終了', script_nm)
         logger.shutdown()
 
 

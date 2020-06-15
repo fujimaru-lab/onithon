@@ -475,3 +475,257 @@ test test test
 2020-06-16 02:45:09,834 - [DEBUG]:処理レコード：(00004, キンキンに冷やしてガっと食べてください)
 2020-06-16 02:45:09,912 - [DEBUG]:処理レコード：(00005, あっつあつにしてホフホフしながら食べてください)
 2020-06-16 02:45:09,999 - [DEBUG]:<csv_import_main.py>処理終了
+2020-06-16 02:58:43,414 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理開始
+2020-06-16 02:58:43,415 [INFO] - batch_logger.py(info):<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>取り込み処理開始
+2020-06-16 02:58:43,416 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理終了
+2020-06-16 02:58:43,661 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理開始
+2020-06-16 02:58:43,662 [INFO] - batch_logger.py(info):<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>取り込み処理開始
+2020-06-16 02:58:43,663 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理終了
+2020-06-16 02:58:43,928 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理開始
+2020-06-16 02:58:43,928 [INFO] - batch_logger.py(info):<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>取り込み処理開始
+2020-06-16 02:58:43,929 [DEBUG] - batch_logger.py(debug):処理レコード：(00001, 00001, 砂糖)
+2020-06-16 02:58:44,101 [DEBUG] - batch_logger.py(debug):(material_set_id=00001, material_id=00001):1件
+2020-06-16 02:58:44,102 [DEBUG] - batch_logger.py(debug):処理レコード：(00001, 00002, 塩)
+2020-06-16 02:58:44,230 [DEBUG] - batch_logger.py(debug):(material_set_id=00001, material_id=00002):1件
+2020-06-16 02:58:44,231 [DEBUG] - batch_logger.py(debug):処理レコード：(00001, 00003, 甘味料)
+2020-06-16 02:58:44,353 [DEBUG] - batch_logger.py(debug):(material_set_id=00001, material_id=00003):1件
+2020-06-16 02:58:44,354 [DEBUG] - batch_logger.py(debug):処理レコード：(00001, 00004, 香料)
+2020-06-16 02:58:44,500 [DEBUG] - batch_logger.py(debug):(material_set_id=00001, material_id=00004):1件
+2020-06-16 02:58:44,501 [DEBUG] - batch_logger.py(debug):処理レコード：(00001, 00005, 着色料)
+2020-06-16 02:58:44,659 [DEBUG] - batch_logger.py(debug):(material_set_id=00001, material_id=00005):1件
+2020-06-16 02:58:44,661 [DEBUG] - batch_logger.py(debug):処理レコード：(00001, 00006, 超おいしいお米)
+2020-06-16 02:58:44,813 [DEBUG] - batch_logger.py(debug):(material_set_id=00001, material_id=00006):1件
+2020-06-16 02:58:44,814 [DEBUG] - batch_logger.py(debug):処理レコード：(00002, 00001, 砂糖)
+2020-06-16 02:58:44,947 [DEBUG] - batch_logger.py(debug):(material_set_id=00002, material_id=00001):1件
+2020-06-16 02:58:44,948 [DEBUG] - batch_logger.py(debug):処理レコード：(00002, 00002, 塩)
+2020-06-16 02:58:45,082 [DEBUG] - batch_logger.py(debug):(material_set_id=00002, material_id=00002):1件
+2020-06-16 02:58:45,084 [DEBUG] - batch_logger.py(debug):処理レコード：(00002, 00003, 甘味料)
+2020-06-16 02:58:45,261 [DEBUG] - batch_logger.py(debug):(material_set_id=00002, material_id=00003):1件
+2020-06-16 02:58:45,262 [DEBUG] - batch_logger.py(debug):処理レコード：(00002, 00004, 香料)
+2020-06-16 02:58:45,388 [DEBUG] - batch_logger.py(debug):(material_set_id=00002, material_id=00004):1件
+2020-06-16 02:58:45,390 [DEBUG] - batch_logger.py(debug):処理レコード：(00002, 00005, 着色料)
+2020-06-16 02:58:45,517 [DEBUG] - batch_logger.py(debug):(material_set_id=00002, material_id=00005):1件
+2020-06-16 02:58:45,518 [DEBUG] - batch_logger.py(debug):処理レコード：(00002, 00007, 割とおいしいお米)
+2020-06-16 02:58:45,644 [DEBUG] - batch_logger.py(debug):(material_set_id=00002, material_id=00007):1件
+2020-06-16 02:58:45,645 [DEBUG] - batch_logger.py(debug):処理レコード：(00003, 00001, 砂糖)
+2020-06-16 02:58:45,775 [DEBUG] - batch_logger.py(debug):(material_set_id=00003, material_id=00001):1件
+2020-06-16 02:58:45,777 [DEBUG] - batch_logger.py(debug):処理レコード：(00003, 00002, 塩)
+2020-06-16 02:58:45,902 [DEBUG] - batch_logger.py(debug):(material_set_id=00003, material_id=00002):1件
+2020-06-16 02:58:45,904 [DEBUG] - batch_logger.py(debug):処理レコード：(00003, 00003, 甘味料)
+2020-06-16 02:58:46,034 [DEBUG] - batch_logger.py(debug):(material_set_id=00003, material_id=00003):1件
+2020-06-16 02:58:46,035 [DEBUG] - batch_logger.py(debug):処理レコード：(00003, 00004, 香料)
+2020-06-16 02:58:46,162 [DEBUG] - batch_logger.py(debug):(material_set_id=00003, material_id=00004):1件
+2020-06-16 02:58:46,163 [DEBUG] - batch_logger.py(debug):処理レコード：(00003, 00005, 着色料)
+2020-06-16 02:58:46,318 [DEBUG] - batch_logger.py(debug):(material_set_id=00003, material_id=00005):1件
+2020-06-16 02:58:46,319 [DEBUG] - batch_logger.py(debug):処理レコード：(00003, 00008, 割とおいしいお米)
+2020-06-16 02:58:46,435 [DEBUG] - batch_logger.py(debug):(material_set_id=00003, material_id=00008):1件
+2020-06-16 02:58:46,437 [DEBUG] - batch_logger.py(debug):処理レコード：(00004, 00011, 鶏肉)
+2020-06-16 02:58:46,564 [DEBUG] - batch_logger.py(debug):(material_set_id=00004, material_id=00011):1件
+2020-06-16 02:58:46,565 [DEBUG] - batch_logger.py(debug):処理レコード：(00004, 00012, 牛肉)
+2020-06-16 02:58:46,690 [DEBUG] - batch_logger.py(debug):(material_set_id=00004, material_id=00012):1件
+2020-06-16 02:58:46,692 [DEBUG] - batch_logger.py(debug):処理レコード：(00004, 00013, 豚肉)
+2020-06-16 02:58:46,812 [DEBUG] - batch_logger.py(debug):(material_set_id=00004, material_id=00013):1件
+2020-06-16 02:58:46,814 [DEBUG] - batch_logger.py(debug):処理レコード：(00004, 00014, ラム肉)
+2020-06-16 02:58:46,943 [DEBUG] - batch_logger.py(debug):(material_set_id=00004, material_id=00014):1件
+2020-06-16 02:58:46,944 [DEBUG] - batch_logger.py(debug):処理レコード：(00004, 00015, 謎の肉)
+2020-06-16 02:58:47,068 [DEBUG] - batch_logger.py(debug):(material_set_id=00004, material_id=00015):1件
+2020-06-16 02:58:47,069 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理終了
+2020-06-16 02:58:47,308 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理開始
+2020-06-16 02:58:47,309 [INFO] - batch_logger.py(info):<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>取り込み処理開始
+2020-06-16 02:58:47,311 [DEBUG] - batch_logger.py(debug):処理レコード：(00001, 冷蔵保存)
+2020-06-16 02:58:47,413 [DEBUG] - batch_logger.py(debug):処理レコード：(00002, 冷凍保存)
+2020-06-16 02:58:47,479 [DEBUG] - batch_logger.py(debug):処理レコード：(00003, 日の当たらない冷所で保管し開封後は速やかに食べてください)
+2020-06-16 02:58:47,549 [DEBUG] - batch_logger.py(debug):処理レコード：(00004, キンキンに冷やしてガっと食べてください)
+2020-06-16 02:58:47,619 [DEBUG] - batch_logger.py(debug):処理レコード：(00005, あっつあつにしてホフホフしながら食べてください)
+2020-06-16 02:58:47,684 [DEBUG] - batch_logger.py(debug):<csv_import_main.py>処理終了
+2020-06-16 03:00:00,527 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理開始
+2020-06-16 03:00:00,528 [INFO] - csv_import_main.py:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>取り込み処理開始
+2020-06-16 03:00:00,529 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理終了
+2020-06-16 03:00:00,764 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理開始
+2020-06-16 03:00:00,764 [INFO] - csv_import_main.py:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>取り込み処理開始
+2020-06-16 03:00:00,766 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理終了
+2020-06-16 03:00:01,045 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理開始
+2020-06-16 03:00:01,045 [INFO] - csv_import_main.py:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>取り込み処理開始
+2020-06-16 03:00:01,046 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00001, 00001, 砂糖)
+2020-06-16 03:00:01,187 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00001, material_id=00001):1件
+2020-06-16 03:00:01,188 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00001, 00002, 塩)
+2020-06-16 03:00:01,313 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00001, material_id=00002):1件
+2020-06-16 03:00:01,314 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00001, 00003, 甘味料)
+2020-06-16 03:00:01,448 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00001, material_id=00003):1件
+2020-06-16 03:00:01,450 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00001, 00004, 香料)
+2020-06-16 03:00:01,590 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00001, material_id=00004):1件
+2020-06-16 03:00:01,591 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00001, 00005, 着色料)
+2020-06-16 03:00:01,722 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00001, material_id=00005):1件
+2020-06-16 03:00:01,723 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00001, 00006, 超おいしいお米)
+2020-06-16 03:00:01,852 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00001, material_id=00006):1件
+2020-06-16 03:00:01,854 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00002, 00001, 砂糖)
+2020-06-16 03:00:02,020 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00002, material_id=00001):1件
+2020-06-16 03:00:02,021 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00002, 00002, 塩)
+2020-06-16 03:00:02,147 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00002, material_id=00002):1件
+2020-06-16 03:00:02,164 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00002, 00003, 甘味料)
+2020-06-16 03:00:02,300 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00002, material_id=00003):1件
+2020-06-16 03:00:02,305 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00002, 00004, 香料)
+2020-06-16 03:00:02,429 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00002, material_id=00004):1件
+2020-06-16 03:00:02,435 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00002, 00005, 着色料)
+2020-06-16 03:00:02,571 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00002, material_id=00005):1件
+2020-06-16 03:00:02,575 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00002, 00007, 割とおいしいお米)
+2020-06-16 03:00:02,700 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00002, material_id=00007):1件
+2020-06-16 03:00:02,705 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00003, 00001, 砂糖)
+2020-06-16 03:00:02,851 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00003, material_id=00001):1件
+2020-06-16 03:00:02,854 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00003, 00002, 塩)
+2020-06-16 03:00:03,055 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00003, material_id=00002):1件
+2020-06-16 03:00:03,060 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00003, 00003, 甘味料)
+2020-06-16 03:00:03,225 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00003, material_id=00003):1件
+2020-06-16 03:00:03,230 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00003, 00004, 香料)
+2020-06-16 03:00:03,363 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00003, material_id=00004):1件
+2020-06-16 03:00:03,365 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00003, 00005, 着色料)
+2020-06-16 03:00:03,488 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00003, material_id=00005):1件
+2020-06-16 03:00:03,490 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00003, 00008, 割とおいしいお米)
+2020-06-16 03:00:03,609 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00003, material_id=00008):1件
+2020-06-16 03:00:03,611 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00004, 00011, 鶏肉)
+2020-06-16 03:00:03,728 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00004, material_id=00011):1件
+2020-06-16 03:00:03,734 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00004, 00012, 牛肉)
+2020-06-16 03:00:03,898 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00004, material_id=00012):1件
+2020-06-16 03:00:03,900 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00004, 00013, 豚肉)
+2020-06-16 03:00:04,019 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00004, material_id=00013):1件
+2020-06-16 03:00:04,025 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00004, 00014, ラム肉)
+2020-06-16 03:00:04,173 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00004, material_id=00014):1件
+2020-06-16 03:00:04,180 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:処理レコード：(00004, 00015, 謎の肉)
+2020-06-16 03:00:04,311 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\material_dao.py:(material_set_id=00004, material_id=00015):1件
+2020-06-16 03:00:04,315 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理終了
+2020-06-16 03:00:04,573 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理開始
+2020-06-16 03:00:04,573 [INFO] - csv_import_main.py:<C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>取り込み処理開始
+2020-06-16 03:00:04,575 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\prsv_method_dao.py:処理レコード：(00001, 冷蔵保存)
+2020-06-16 03:00:04,655 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\prsv_method_dao.py:処理レコード：(00002, 冷凍保存)
+2020-06-16 03:00:04,724 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\prsv_method_dao.py:処理レコード：(00003, 日の当たらない冷所で保管し開封後は速やかに食べてください)
+2020-06-16 03:00:04,799 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\prsv_method_dao.py:処理レコード：(00004, キンキンに冷やしてガっと食べてください)
+2020-06-16 03:00:04,875 [DEBUG] - C:\Users\yoshi\Documents\01.CodingSpace\08.Python\app\batch\dao\prsv_method_dao.py:処理レコード：(00005, あっつあつにしてホフホフしながら食べてください)
+2020-06-16 03:00:04,960 [DEBUG] - csv_import_main.py:<csv_import_main.py>処理終了
+2020-06-16 03:13:18,620 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:13:18,620 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv',)>取り込み処理開始
+2020-06-16 03:13:18,623 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 03:13:18,887 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:13:18,887 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt',)>取り込み処理開始
+2020-06-16 03:13:18,889 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 03:13:19,118 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:13:19,118 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv',)>取り込み処理開始
+2020-06-16 03:13:19,120 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 03:13:19,367 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:13:19,367 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv',)>取り込み処理開始
+2020-06-16 03:13:19,369 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 03:20:13,466 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:20:13,467 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv',)>取り込み処理開始
+2020-06-16 03:20:13,468 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 03:20:13,766 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:20:13,767 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt',)>取り込み処理開始
+2020-06-16 03:20:13,769 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 03:20:14,068 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:20:14,069 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv',)>取り込み処理開始
+2020-06-16 03:20:14,071 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 03:20:14,349 [DEBUG] - <('csv_import_main.py',)>処理開始
+2020-06-16 03:20:14,349 [INFO] - <('C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv',)>取り込み処理開始
+2020-06-16 03:20:14,351 [DEBUG] - <('csv_import_main.py',)>処理終了
+2020-06-16 04:02:48,639 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:02:48,639 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>取り込み処理開始
+2020-06-16 04:02:48,640 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:02:48,868 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:02:48,868 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>取り込み処理開始
+2020-06-16 04:02:48,869 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:02:49,117 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:02:49,117 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>取り込み処理開始
+2020-06-16 04:02:49,118 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:02:49,346 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:02:49,346 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>取り込み処理開始
+2020-06-16 04:02:49,347 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:05:29,161 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:05:29,161 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>取り込み処理開始
+2020-06-16 04:05:29,163 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:05:29,409 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:05:29,409 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>取り込み処理開始
+2020-06-16 04:05:29,410 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:05:29,658 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:05:29,658 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>取り込み処理開始
+2020-06-16 04:05:29,659 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:05:29,913 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:05:29,913 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>取り込み処理開始
+2020-06-16 04:05:29,914 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:14:37,138 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:14:37,139 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>取り込み処理開始
+2020-06-16 04:14:37,140 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:14:37,420 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:14:37,420 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>取り込み処理開始
+2020-06-16 04:14:37,421 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:14:37,673 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:14:37,673 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>取り込み処理開始
+2020-06-16 04:14:37,674 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:14:37,914 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:14:37,914 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>取り込み処理開始
+2020-06-16 04:14:37,916 [DEBUG] - 処理レコード：(00001, 冷蔵保存)
+2020-06-16 04:14:37,998 [DEBUG] - 処理レコード：(00002, 冷凍保存)
+2020-06-16 04:14:38,068 [DEBUG] - 処理レコード：(00003, 日の当たらない冷所で保管し開封後は速やかに食べてください)
+2020-06-16 04:14:38,137 [DEBUG] - 処理レコード：(00004, キンキンに冷やしてガっと食べてください)
+2020-06-16 04:14:38,203 [DEBUG] - 処理レコード：(00005, あっつあつにしてホフホフしながら食べてください)
+2020-06-16 04:14:38,268 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:18:09,431 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:18:09,431 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//fugafuga.csv>取り込み処理開始
+2020-06-16 04:18:09,432 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:18:09,703 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:18:09,703 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//hogehoge.txt>取り込み処理開始
+2020-06-16 04:18:09,704 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:18:09,959 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:18:09,960 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//material-data.csv>取り込み処理開始
+2020-06-16 04:18:09,961 [DEBUG] - 処理レコード：(00001, 00001, 砂糖)
+2020-06-16 04:18:10,097 [DEBUG] - (material_set_id=00001, material_id=00001):1件
+2020-06-16 04:18:10,099 [DEBUG] - 処理レコード：(00001, 00002, 塩)
+2020-06-16 04:18:10,232 [DEBUG] - (material_set_id=00001, material_id=00002):1件
+2020-06-16 04:18:10,233 [DEBUG] - 処理レコード：(00001, 00003, 甘味料)
+2020-06-16 04:18:10,359 [DEBUG] - (material_set_id=00001, material_id=00003):1件
+2020-06-16 04:18:10,360 [DEBUG] - 処理レコード：(00001, 00004, 香料)
+2020-06-16 04:18:10,487 [DEBUG] - (material_set_id=00001, material_id=00004):1件
+2020-06-16 04:18:10,489 [DEBUG] - 処理レコード：(00001, 00005, 着色料)
+2020-06-16 04:18:10,615 [DEBUG] - (material_set_id=00001, material_id=00005):1件
+2020-06-16 04:18:10,617 [DEBUG] - 処理レコード：(00001, 00006, 超おいしいお米)
+2020-06-16 04:18:10,788 [DEBUG] - (material_set_id=00001, material_id=00006):1件
+2020-06-16 04:18:10,789 [DEBUG] - 処理レコード：(00002, 00001, 砂糖)
+2020-06-16 04:18:10,943 [DEBUG] - (material_set_id=00002, material_id=00001):1件
+2020-06-16 04:18:10,944 [DEBUG] - 処理レコード：(00002, 00002, 塩)
+2020-06-16 04:18:11,130 [DEBUG] - (material_set_id=00002, material_id=00002):1件
+2020-06-16 04:18:11,132 [DEBUG] - 処理レコード：(00002, 00003, 甘味料)
+2020-06-16 04:18:11,292 [DEBUG] - (material_set_id=00002, material_id=00003):1件
+2020-06-16 04:18:11,293 [DEBUG] - 処理レコード：(00002, 00004, 香料)
+2020-06-16 04:18:11,425 [DEBUG] - (material_set_id=00002, material_id=00004):1件
+2020-06-16 04:18:11,427 [DEBUG] - 処理レコード：(00002, 00005, 着色料)
+2020-06-16 04:18:11,551 [DEBUG] - (material_set_id=00002, material_id=00005):1件
+2020-06-16 04:18:11,552 [DEBUG] - 処理レコード：(00002, 00007, 割とおいしいお米)
+2020-06-16 04:18:11,681 [DEBUG] - (material_set_id=00002, material_id=00007):1件
+2020-06-16 04:18:11,683 [DEBUG] - 処理レコード：(00003, 00001, 砂糖)
+2020-06-16 04:18:11,841 [DEBUG] - (material_set_id=00003, material_id=00001):1件
+2020-06-16 04:18:11,842 [DEBUG] - 処理レコード：(00003, 00002, 塩)
+2020-06-16 04:18:11,964 [DEBUG] - (material_set_id=00003, material_id=00002):1件
+2020-06-16 04:18:11,965 [DEBUG] - 処理レコード：(00003, 00003, 甘味料)
+2020-06-16 04:18:12,091 [DEBUG] - (material_set_id=00003, material_id=00003):1件
+2020-06-16 04:18:12,092 [DEBUG] - 処理レコード：(00003, 00004, 香料)
+2020-06-16 04:18:12,229 [DEBUG] - (material_set_id=00003, material_id=00004):1件
+2020-06-16 04:18:12,230 [DEBUG] - 処理レコード：(00003, 00005, 着色料)
+2020-06-16 04:18:12,353 [DEBUG] - (material_set_id=00003, material_id=00005):1件
+2020-06-16 04:18:12,355 [DEBUG] - 処理レコード：(00003, 00008, 割とおいしいお米)
+2020-06-16 04:18:12,484 [DEBUG] - (material_set_id=00003, material_id=00008):1件
+2020-06-16 04:18:12,486 [DEBUG] - 処理レコード：(00004, 00011, 鶏肉)
+2020-06-16 04:18:12,610 [DEBUG] - (material_set_id=00004, material_id=00011):1件
+2020-06-16 04:18:12,611 [DEBUG] - 処理レコード：(00004, 00012, 牛肉)
+2020-06-16 04:18:12,733 [DEBUG] - (material_set_id=00004, material_id=00012):1件
+2020-06-16 04:18:12,735 [DEBUG] - 処理レコード：(00004, 00013, 豚肉)
+2020-06-16 04:18:12,868 [DEBUG] - (material_set_id=00004, material_id=00013):1件
+2020-06-16 04:18:12,870 [DEBUG] - 処理レコード：(00004, 00014, ラム肉)
+2020-06-16 04:18:13,003 [DEBUG] - (material_set_id=00004, material_id=00014):1件
+2020-06-16 04:18:13,004 [DEBUG] - 処理レコード：(00004, 00015, 謎の肉)
+2020-06-16 04:18:13,124 [DEBUG] - (material_set_id=00004, material_id=00015):1件
+2020-06-16 04:18:13,125 [DEBUG] - <csv_import_main.py>処理終了
+2020-06-16 04:18:13,370 [DEBUG] - <csv_import_main.py>処理開始
+2020-06-16 04:18:13,371 [INFO] - <C:/Users/yoshi/Documents/01.CodingSpace/08.Python/app/batch/sample_data//prsv_method-data.csv>取り込み処理開始
+2020-06-16 04:18:13,372 [DEBUG] - 処理レコード：(00001, 冷蔵保存)
+2020-06-16 04:18:13,443 [DEBUG] - 処理レコード：(00002, 冷凍保存)
+2020-06-16 04:18:13,514 [DEBUG] - 処理レコード：(00003, 日の当たらない冷所で保管し開封後は速やかに食べてください)
+2020-06-16 04:18:13,586 [DEBUG] - 処理レコード：(00004, キンキンに冷やしてガっと食べてください)
+2020-06-16 04:18:13,658 [DEBUG] - 処理レコード：(00005, あっつあつにしてホフホフしながら食べてください)
+2020-06-16 04:18:13,726 [DEBUG] - <csv_import_main.py>処理終了

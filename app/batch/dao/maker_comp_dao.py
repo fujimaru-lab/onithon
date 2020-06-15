@@ -12,7 +12,7 @@ def reg_maker_comp_data (record, script_nm):
     """
     maker_comp_id = record[0]
     maker_name = record[1].rstrip('\r\n')
-    logger.debug(logger.create_msg('処理レコード：({0}, {1})', maker_comp_id, maker_name))
+    logger.debug('処理レコード：({0}, {1})', maker_comp_id, maker_name)
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()

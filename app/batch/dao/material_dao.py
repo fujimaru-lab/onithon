@@ -17,7 +17,7 @@ def reg_material_data(record, scpt_nm):
     material_set_id = record[0]
     material_id = record[1]
     material_name = record[2].rstrip('\r\n')
-    logger.debug(logger.create_msg('処理レコード：({0}, {1}, {2})', material_set_id, material_id, material_name))
+    logger.debug('処理レコード：({0}, {1}, {2})', material_set_id, material_id, material_name)
     try:
         conn = psgr_db_conn.Connection()
         cursor = conn.cursor()
@@ -66,7 +66,7 @@ def count_material_set(material_set_id, material_id):
             """
         cursor.execute(sql, (material_set_id, material_id))
         count = cursor.rowcount
-        logger.debug(logger.create_msg('(material_set_id={0}, material_id={1}):{2}件', material_set_id, material_id, count))
+        logger.debug('(material_set_id={0}, material_id={1}):{2}件', material_set_id, material_id, count)
     except Exception as e:
         conn.rollback()
         raise e
