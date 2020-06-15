@@ -7,6 +7,7 @@ import dao.material_dao as m_dao
 import dao.prsv_method_dao as pm_dao
 import dao.maker_comp_dao as mc_dao
 import dao.maker_base_dao as mb_dao
+import log.batch_logger as log
 import os
 
 
@@ -17,6 +18,9 @@ def import_csv(file_path):
     商品販売情報は取り込み対象外
     """ 
     script_nm = os.path.basename(sys.argv[0])
+    logger = log.BatchLog(os.path.basename(__file__))
+    logger.debug('<' + script_nm + '>' + '処理開始')
+    logger.info('<' + file_path + '>' + '取り込み処理開始')
     try:
         with open(file_path, newline='', encoding='utf-8_sig') as csvfile:
             csvreader = csv.reader(csvfile)
@@ -50,6 +54,8 @@ def import_csv(file_path):
         print(e)
     finally:
         csvfile.close()
+        logger.debug('<' + script_nm + '>' + '処理終了')
+        logger.shutdown()
 
 
 if __name__ == "__main__":
