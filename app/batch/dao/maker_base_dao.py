@@ -22,12 +22,13 @@ def reg_maker_base_data(record, scrpt_nm):
             insert into maker_base
             values (%s, %s, %s, %s, %s, %s, now(), %s, now())
             on conflict (maker_comp_id, maker_base_id)
-            update set
+            do update set
                 base_name = %s,
                 base_adrs = %s,
                 base_tel = %s,
                 upd_user = %s,
                 upd_date = now()
+            ;
             """
         sql_param = (maker_comp_id, maker_base_id, base_name, base_adrs, base_tel, scrpt_nm, scrpt_nm, base_name, base_adrs, base_tel, scrpt_nm)
         cursor.execute(upsrt, sql_param)

@@ -21,8 +21,8 @@ def reg_maker_comp_data (record, script_nm):
             insert into maker_comp
             values (%s, %s, %s, now(), %s, now())
             on conflict(maker_comp_id)
-            update set
-                maker_name = %s
+            do update set
+                maker_name = %s,
                 upd_user = %s,
                 upd_date = now()
             ;
