@@ -28,10 +28,12 @@ def reg_material_data(record, scpt_nm):
             values (%s, %s, %s, now(), %s, now())
             on conflict (material_id)
             do update set
-                material_name = %s
+                material_name = %s,
+                upd_user = %s,
+                upd_date = now()
             ;
             """
-        sql_param01 = (material_id, material_name, scpt_nm, scpt_nm, material_name)
+        sql_param01 = (material_id, material_name, scpt_nm, scpt_nm, material_name, scpt_nm)
         cursor.execute(upsert_material, sql_param01)
 
         # 原材料セット情報の登録
