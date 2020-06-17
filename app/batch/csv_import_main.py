@@ -7,6 +7,7 @@ import dao.material_dao as m_dao
 import dao.prsv_method_dao as pm_dao
 import dao.maker_comp_dao as mc_dao
 import dao.maker_base_dao as mb_dao
+import dao.prod_base_dao as pb_dao
 import log.batch_logger as log
 import os
 
@@ -45,7 +46,7 @@ def import_csv(file_path):
                     mb_dao.reg_maker_base_data(re.split(',', record), script_nm)
                 elif tbl_nm == "prod_base":
                     # 商品基本情報取り込み
-                    pass
+                    pb_dao.reg_prod_base_data(re.split(',', record), script_nm)
                 else:
                     logger.info('{0}は取り込み対象のファイルではありません', filename)
                     break
