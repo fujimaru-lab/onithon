@@ -26,21 +26,22 @@ def reg_prod_base_data(record, scpt_nm):
         # 商品基本情報の登録・更新
         upsert_prod_base = """
             insert into prod_base
-            values ({0}, {1}, {2}, {3}, {4}, {5}, {6}, now(), {6}, now())
+            values (%s, %s, %s, %s, %s, %s, %s, now(), %s, now())
             on conflict(prod_jan)
             do update set
-                prod_name = {1},
-                material_set_id = {2},
-                exprat_unit = {3},
-                exprat_tarm = {4},
-                prsv_method_id = {5},
-                upd_user = {6},
+                prod_name = %s,
+                material_set_id = %s,
+                exprat_unit = %s,
+                exprat_term = %s,
+                prsv_method_id = %s,
+                upd_user = %s,
                 upd_date = now()
             ;
             """
 
-        sql_param = (prod_jan, prod_name, material_set_id, exprat_unit, exprat_term, prsv_method_id, scpt_nm)
-        cursor.execute(upsert_prod_base)
+        sqlparams = (prod_jan, prod_name, material_set_id, exprat_unit, exprat_term, prsv_method_id, scpt_nm, scpt_nm, prod_name, material_set_id, exprat_unit, exprat_term, prsv_method_id, scpt_nm)
+        cursor.execute(upsert_prod_base, sqlparams)
+        conn.commit()
     except Exception as e:
         conn.rollback()
         raise(e)
